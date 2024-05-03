@@ -1,0 +1,9 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+__pycache__
+
+.vscode
+
+# Ignore PyTorch torchvision CIFAR10 dataset download
+/data/
+
