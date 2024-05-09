@@ -6,4 +6,4 @@ __pycache__
 
 # Ignore PyTorch torchvision CIFAR10 dataset download
 /data/
-
+/frames/
