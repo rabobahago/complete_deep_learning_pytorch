@@ -1,0 +1,7 @@
+FashionMNIST/
+
+# Ignore PyTorch torchvision CIFAR10 dataset download
+/data/
+
+model.pth
+
