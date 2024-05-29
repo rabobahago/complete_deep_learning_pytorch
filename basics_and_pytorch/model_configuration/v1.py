@@ -13,5 +13,5 @@ model = nn.Linear(1, 1).to(device)
 lr = 0.1
 optimizer = torch.optim.SGD(model.parameters(), lr = lr)
 loss_fn = nn.MSELoss(reduction='mean')
-performer_train_step = make_train_step_fn(model, loss_fn, optimizer)
-performer_train_step
+train_step_fn = make_train_step_fn(model, loss_fn, optimizer)
+train_step_fn
